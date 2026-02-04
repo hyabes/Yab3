@@ -1,0 +1,12 @@
+KEYS
+
+RESUME    <-- Good Stuff
+CONTACT   <-- Contact me
+GAME      <-- Games
+SOPHIA    <-- <3
+GROD      <-- :p
+HELP      <-- Directory
+
+DEV KEYS
+
+DEBUG     <-- Boring Stuff
