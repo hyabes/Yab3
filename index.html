@@ -1,0 +1,56 @@
+<!--HECTOR YABES-->
+<!--yab3.dev-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yab3.dev</title>
+
+    <link rel="stylesheet" href="styles.css"> <!--CSS LINK-->
+</head>
+
+<!--STYLE TO CENTER BODY-->
+<style>
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+</style>
+
+<body>
+    <main>
+        <div id="status">
+            <span id="debug-sign" class="debug-sign">DEBUG</span>
+        </div>
+        <div id="logo">yab3</div>
+        <input
+        type="text"
+        id="key"
+        placeholder=":p"
+        autocomplete="off"
+        autofocus
+        >
+    </main>
+</body>
+
+<!--JS LINK-->
+<script src="script.js"></script> 
+
+</html>

@@ -1,0 +1,36 @@
+/* HECTOR YABES */
+/* yab3.dev */
+
+#status {
+  margin-bottom: 8px; /* since it's above the logo */
+}
+
+.debug-sign {
+  font-size: 0.95rem;
+  font-family: monospace;
+  letter-spacing: 0.08em;
+
+  color: #9ca3af; /* grey */
+  opacity: 0;     /* hidden by default */
+
+  transition: opacity 0.2s ease, color 0.15s ease;
+}
+
+/* visible whenever a state is applied */
+.debug-sign.neutral,
+.debug-sign.valid,
+.debug-sign.invalid {
+  opacity: 1;
+}
+
+.debug-sign.neutral {
+  color: #9ca3af; /* grey */
+}
+
+.debug-sign.valid {
+  color: #22c55e; /* green */
+}
+
+.debug-sign.invalid {
+  color: #ef4444; /* red */
+}
